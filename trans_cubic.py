@@ -12,7 +12,7 @@ def roots_trans_cubic(b0, T, k_vals, Sigma=1):
     roots_all = []
 
     for idx, k in enumerate(k_vals):
-        # Coefficients of the quartic polynomial
+        # Define coefficients
         a3 = 1
         a2 = -1j * (Sigma + Sigma_prime)
         a1 = - ( Sigma*Sigma_prime + k**2 / 5 + omega0**2 / 4 )

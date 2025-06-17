@@ -10,7 +10,7 @@ def roots_long_B_indep(k_vals, Sigma=1):
     roots_all = []
 
     for idx, k in enumerate(k_vals):
-        # Polynomial coefficients
+        # Define coefficients
         a3 = 1
         a2 = -1j * Sigma 
         a1 = - 3 * k**2 / 5

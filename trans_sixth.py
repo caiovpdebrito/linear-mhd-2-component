@@ -12,7 +12,7 @@ def roots_trans_sixth(b0, T, k_vals, Sigma=1):
     roots_all = []
 
     for idx, k in enumerate(k_vals):
-        # Coefficients of the quartic polynomial
+        # Define coefficients
         prefactor = 1 / (15 * (1 + B))
         
         a6 = 1
